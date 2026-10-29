@@ -1,0 +1,9 @@
+RewriteEngine On
+ErrorDocument 404 /baitapweb/chuong9/404.html
+
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+)\.html$ $1.php?id=$2 
+
+# <Files "gioithieu.php">
+#     Order allow,deny
+#     deny from all
+# </Files>

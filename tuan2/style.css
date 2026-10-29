@@ -1,0 +1,44 @@
+.container {
+    margin: 0px auto;
+    height:auto;
+    width: 1000px;
+    border:1px solid #999;
+}
+.header {
+    height: 100px;
+    width:100%;
+    background: #7df791;
+    border-bottom: 1px solid #999;
+    text-align: center;
+}
+.main {
+    display:flex ;
+    min-height:40px;
+}
+
+.nav {
+    flex-grow:1;
+    border-right:1px solid #999;
+    padding: 10px;
+}
+
+.content {
+    flex-grow:4;
+    padding: 10px;
+}
+
+.footer {
+    height:60px;
+    line-height:60px;
+    width:1000px
+}
+
+.footer {
+    height:60px ;
+    line-height:60px;
+    width:1000px;
+    background-color: #ccc;
+    border-top: 1px solid #999;
+    text-align:center;
+}
+
